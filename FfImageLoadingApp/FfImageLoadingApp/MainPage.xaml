@@ -15,7 +15,7 @@
                    FontSize="40"/>
             <Label Text="GIF"
                    TextColor="DodgerBlue"
-                   FontSize="40"/>
+                   FontSize="40" />
 
             <ff:CachedImage x:Name="Gif" Source="resource://FfImageLoadingApp.gif.gif" />
 
