@@ -10,41 +10,30 @@
 
     <ScrollView>
         <StackLayout Padding="20,0">
-            <Label Text="Xamarin Forms!"
-                   TextColor="DeepPink"
-                   FontSize="40"/>
-            <Label Text="GIF"
-                   TextColor="DodgerBlue"
-                   FontSize="40" />
+            
+            <Label Text="Xamarin Forms!" TextColor="DeepPink" FontSize="40"/>
+            <Label Text="GIF" TextColor="DodgerBlue" FontSize="40" />
 
             <ff:CachedImage x:Name="Gif" Source="resource://FfImageLoadingApp.gif.gif" />
 
-            <Label Text="SVG"
-                   TextColor="DodgerBlue"
-                   FontSize="40"/>
+            <Label Text="SVG" TextColor="DodgerBlue" FontSize="40"/>
             <ffSvg:SvgCachedImage Source="resource://FfImageLoadingApp.svg.svg"/>
 
-            <Label Text="Blurred"
-                   TextColor="DodgerBlue"
-                   FontSize="40"/>
+            <Label Text="Blurred" TextColor="DodgerBlue" FontSize="40"/>
             <ff:CachedImage Source="resource://FfImageLoadingApp.img.jpg">
                 <ff:CachedImage.Transformations>
                     <ffTransformations:BlurredTransformation Radius="200" />
                 </ff:CachedImage.Transformations>
             </ff:CachedImage>
 
-            <Label Text="Rounded Transformation"
-                   TextColor="DodgerBlue"
-                   FontSize="24"/>
+            <Label Text="Rounded Transformation" TextColor="DodgerBlue" FontSize="24"/>
             <ff:CachedImage Source="resource://FfImageLoadingApp.img.jpg">
                 <ff:CachedImage.Transformations>
                     <ffTransformations:RoundedTransformation Radius="240" />
                 </ff:CachedImage.Transformations>
             </ff:CachedImage>
 
-            <Label Text="Grayscale Transformation"
-                   TextColor="DodgerBlue"
-                   FontSize="24"/>
+            <Label Text="Grayscale Transformation" TextColor="DodgerBlue" FontSize="24"/>
             <ff:CachedImage Source="resource://FfImageLoadingApp.img.jpg">
                 <ff:CachedImage.Transformations>
                     <ffTransformations:GrayscaleTransformation />

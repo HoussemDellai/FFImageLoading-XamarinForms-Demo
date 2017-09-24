@@ -92,9 +92,6 @@
     <EmbeddedResource Include="svg.svg" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="image.png" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="gif.gif" />
   </ItemGroup>
   <ItemGroup>
